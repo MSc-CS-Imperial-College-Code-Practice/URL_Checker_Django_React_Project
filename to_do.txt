@@ -1,4 +1,2 @@
-- Save requirements in freeze
---> Need to put gitignore outside --> make correct references
---> Ensure url_checker is applied correctly
---> Create venv shortcut
+- gitignore --> have correct paths
+- Read other article
