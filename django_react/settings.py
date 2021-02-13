@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework'
+    'rest_framework',
     'url_checker'
 ]
 
@@ -123,7 +123,7 @@ STATIC_URL = '/static/'
 
 # Following added by Ben:
 
-REACT_APP_DIR = os.path.join(BASE_DIR, 'frontend') 
+'''REACT_APP_DIR = os.path.join(BASE_DIR, 'frontend') 
 STATICFILES_DIRS = [
     os.path.join(REACT_APP_DIR, 'build', 'static'),
-]
+]'''
